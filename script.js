@@ -3,7 +3,7 @@ const hoursElement = document.getElementById("hours");
 const minutesElement = document.getElementById("minutes");
 const secondsElement = document.getElementById("seconds");
 
-const setDate = "28 September 2021";
+const setDate = "21:00:00 28 September 2021";
 
 function countdown() {
     const dateCountdown = new Date(setDate);
